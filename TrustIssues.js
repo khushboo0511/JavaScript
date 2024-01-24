@@ -12,3 +12,6 @@ while (endDate < startDate + 10000) {
     endDate = new Date().getTime();
 }
 console.log("While expires");
+
+//Even if the timer is 0, the function still goes through Callback Queue, and gets executed after the rest of the program which are in the Global Execution context
+
