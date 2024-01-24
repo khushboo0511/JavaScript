@@ -20,5 +20,7 @@ const calculate = function (radius, logic) {
     return output;
 }
 
-console.log(calculate(radius, area));
-console.log(calculate(radius, circumference));
+console.log(radius.map(area));
+
+// console.log(calculate(radius, area));
+// console.log(calculate(radius, circumference));
